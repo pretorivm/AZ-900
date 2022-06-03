@@ -1,1 +1,43 @@
-<mxfile host="app.diagrams.net" modified="2022-06-03T14:39:22.883Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" version="19.0.0" etag="vmRjJwWNqotB6c-aiwXr" type="github"><diagram id="tXR0tu_B9uJzx99EfAxm">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-06-03T14:53:07.689Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="vx9FCowhGhFwSUeBKM9t" version="19.0.0" type="github">
+  <diagram id="tXR0tu_B9uJzx99EfAxm" name="Page-1">
+    <mxGraphModel dx="1673" dy="896" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3Vrzq33rrkSSI72wY4sB-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="141" y="181" width="495" height="316" as="geometry" />
+        </mxCell>
+        <mxCell id="3Vrzq33rrkSSI72wY4sB-2" value="NOME DO RG" style="aspect=fixed;html=1;points=[];align=left;image;fontSize=17;image=img/lib/azure2/general/Resource_Groups.svg;labelPosition=right;verticalLabelPosition=middle;verticalAlign=middle;spacingBottom=26;spacingRight=0;spacingLeft=6;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="109" y="150" width="68" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="3Vrzq33rrkSSI72wY4sB-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="187" y="247" width="182" height="159" as="geometry" />
+        </mxCell>
+        <mxCell id="3Vrzq33rrkSSI72wY4sB-4" value="NOME DA VNET&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;10.0.0.0/16&lt;/div&gt;" style="aspect=fixed;html=1;points=[];align=left;image;fontSize=12;image=img/lib/azure2/networking/Virtual_Networks.svg;labelPosition=right;verticalLabelPosition=middle;verticalAlign=middle;fontStyle=1;labelBackgroundColor=none;spacingBottom=0;spacingRight=0;spacingLeft=6;" vertex="1" parent="1">
+          <mxGeometry x="187" y="422" width="46" height="27.46" as="geometry" />
+        </mxCell>
+        <mxCell id="3Vrzq33rrkSSI72wY4sB-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="403" y="247" width="182" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="3Vrzq33rrkSSI72wY4sB-6" value="NOME DA VNET&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;10.1.0.0/16&lt;/div&gt;" style="aspect=fixed;html=1;points=[];align=left;image;fontSize=12;image=img/lib/azure2/networking/Virtual_Networks.svg;labelPosition=right;verticalLabelPosition=middle;verticalAlign=middle;fontStyle=1;labelBackgroundColor=none;spacingBottom=0;spacingRight=0;spacingLeft=6;" vertex="1" parent="1">
+          <mxGeometry x="403" y="414" width="46" height="27.46" as="geometry" />
+        </mxCell>
+        <mxCell id="3Vrzq33rrkSSI72wY4sB-7" value="NOME SRV 01" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/compute/Virtual_Machine.svg;labelBackgroundColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="197" y="302" width="69" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="3Vrzq33rrkSSI72wY4sB-9" value="NOME SRV 02" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/compute/Virtual_Machine.svg;labelBackgroundColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="283" y="302" width="69" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="3Vrzq33rrkSSI72wY4sB-10" value="NOME VM 01" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/compute/Virtual_Machine.svg;labelBackgroundColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="423" y="302" width="69" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="3Vrzq33rrkSSI72wY4sB-11" value="NOME VM 02" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/compute/Virtual_Machine.svg;labelBackgroundColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="507" y="302" width="69" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="3Vrzq33rrkSSI72wY4sB-12" value="NSG VMS" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/networking/Network_Security_Groups.svg;labelBackgroundColor=none;fontStyle=1;labelPosition=center;verticalLabelPosition=top;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="473" y="229" width="29.65" height="36" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
